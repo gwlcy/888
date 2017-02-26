@@ -1,0 +1,35 @@
+﻿body {
+    background-color:#F1FAFA;
+}
+.cont {
+    width:40%;
+    margin-left:30%;
+    margin-right:30%;
+}
+p {
+    text-indent:2em;
+}
+img {
+    margin:10px 10px;
+    
+}
+.cont img {
+}
+h1 {
+    text-align:center;
+}
+span {
+    color:red;
+}
+.top {
+    position:fixed;
+    left:80%;
+    width:60px;
+    height:30px;
+    line-height:30px;
+    text-align:center;
+    color:red;
+    bottom:100px;
+    border:solid 1px #777;
+    border-radius:7px;
+}
