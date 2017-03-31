@@ -1,0 +1,32 @@
+/************************************************************************************
+smaller than 650
+*************************************************************************************/
+@media screen and (max-width: 640px) {
+    /*ндуб*/
+    /*.head,.list_right,.banner,.tv_left,.footer.weizhi,.bd_dh,.agenda,.weizhi{display:none;}*/
+    /*.main{width:100%}*/
+    /*.list_left{float:none;width:95%;margin:auto}*/
+    /*.list_left dl dd img{width:100%;height:auto;}*/
+    /*.shipin{width:100%;float:none;}*/
+    /*.zhengwen img{width:95%;}*/
+    /*.zhibo_banner,.iphone_banne{display:block;}*/
+    /*/!*.shipin1{display:block;margin:10px;text-align:center;}*!/*/
+    /*.zhibo_banner img{width:100%;margin:0px;}*/
+    /*.list_left dl{width:100%;float:none}*/
+    /*.list_left .tp{width:100%;float:none}*/
+    /*.list_left .tp img{width:100%;margin:0px;}*/
+    /*.footer .con{width:100%;margin:auto;}*/
+    /*.weizhi{width:100%;}*/
+}
+
+/************************************************************************************
+smaller than 560
+*************************************************************************************/
+@media screen and (max-width: 480px) {
+
+    /* disable webkit text size adjust (for iPhone) */
+    /*html {*/
+        /*-webkit-text-size-adjust: none;*/
+    /*}*/
+
+}

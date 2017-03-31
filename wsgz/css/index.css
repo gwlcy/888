@@ -1,0 +1,213 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+/*媒体关注*/
+img{
+    border: 0;
+}
+.meiti{
+    width: 100%;
+    /*height: 100%;*/
+    background-color: #49cbcd;
+    position: relative;
+}
+.main{
+    max-width: 1000px;
+    height: 100%;
+    margin: 0 auto;
+}
+.meiti_main_up{
+    width: 100%;
+    margin: auto;
+}
+.slider,.slider .picshow{
+    float: left;
+}
+.slider .picshow div ul{
+    width: 340px;
+    height: 250px;
+    overflow: hidden;
+    margin-right: 10px;
+}
+.picshow div ul li{
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+
+.picshow div ul li a img{
+    width: 100%;
+    height: 100%;
+    border: 0;
+}
+
+.slider .select_img{
+    width: 140px;
+    height: 100%;
+    overflow: hidden;
+    float: left;
+}
+.select_img ul li{
+    width: 100%;
+    height: 80px;
+    overflow: hidden;
+    margin-bottom: 5px;
+}
+.select_img ul li a img{
+    width: 100%;
+    height: 100%;
+    border: 0;
+}
+
+.dongtai{
+    float: right;
+    width: 480px;
+    text-align: left;
+}
+.dongtai dl{
+    padding: 10px;
+}
+.dongtai dt{
+    font-size: 18px;
+    font-weight: bold;
+    line-height: 20px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+.dongtai dd{
+    text-indent: 2em;
+    line-height: 24px;
+    font-size: 14px;
+}
+.dongtai dt a,dd a{
+    color: #3e3a39;;
+}
+.dongtai dt a:hover,.dongtai dd a:hover{
+    color: #ffffff;
+}
+.dongtai .up{
+    border-bottom: 1px dashed #666666;
+}
+.news_items{
+    width: 100%;
+}
+.news_items ul li{
+    list-style-image: url(../img/dot.png);
+    list-style-position: inside;
+}
+.news_items ul li a{
+    line-height: 30px;
+    font-size: 14px;
+    color: #3e3a39;
+    text-align: left;
+}
+.news_items ul li a:hover{
+    color: #ffffff;
+}
+.left_news_items{
+    width: 50%;
+    float: left;
+}
+.right_news_items{
+    width: 50%;
+    float: right;
+}
+.more{
+    width: 100%;
+    margin: 0 auto;
+}
+.more a{
+    display: block;
+    width: 130px;
+    height: 35px;
+    text-align: center;
+    border-radius: 20px;
+    line-height: 35px;
+    margin: 0 auto;
+}
+.meiti .more a{
+    color: #49cbcd;
+}
+.meiti .more a:hover{
+    color: #000000;
+}
+/*治水现场*/
+.zhishui_cont{
+    width: 100%;
+    height: 100%;
+}
+.zhishui_cont ul{
+    font-size: 0;
+}
+.zhishui_cont ul li{
+    display: inline-block;
+    *display:inline;
+    *zoom:1;
+    width: 330px;
+    height: 400px;
+    background-color: #e0e0e0;
+    margin-bottom: 5px;
+    margin-right: 5px;
+}
+.zhishui_cont ul li.text_bgc{
+    background-color: #49cbcd;
+}
+.zhishui_cont ul li .zhishui_img a{
+    display: block;
+    width: 100%;
+    height: 200px;
+    overflow: hidden;
+}
+.zhishui_cont ul li .zhishui_img a img{
+    width: 100%;
+    height: 100%;
+    border: 0;
+}
+.zhishui_text dl{
+    width: 310px;
+    height: 180px;
+    padding: 10px;
+}
+.zhishui_text dl dt{
+    font-size: 18px;
+    line-height: 20px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+.zhishui_text dl dd{
+    text-indent: 2em;
+    line-height: 24px;
+    font-size: 14px;
+}
+.zhishui_text dt a,dd a{
+    color: #3e3a39;;
+}
+.zhishui_cont ul li.text_bgc dt a,.zhishui_cont ul li.text_bgc dd a{
+    color: #ffffff;
+}
+.font_color a:hover{
+    color:#49cbcd;
+}
+.zhishui_cont ul li.text_bgc dt a:hover,.zhishui_cont ul li.text_bgc dd a:hover{
+    color: #000000;
+}
+#zhishui .more a{
+    color: #ffffff;
+}
+#zhishui .more a:hover{
+    color: #000000;
+}
+/*footer*/
+.footer{
+    width: 100%;
+    height: 50px;
+    background-color: #49cbcd;
+    padding: 40px 0;
+}
+.footer_text{
+    font-size: 12px;
+    color: #ffffff;
+    line-height: 25px;
+    text-align: center;
+}
