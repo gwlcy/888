@@ -25,7 +25,7 @@ img{
     float: left;
 }
 .slider .picshow div ul{
-    width: 340px;
+    width: 320px;
     height: 250px;
     overflow: hidden;
     margin-right: 10px;
@@ -62,7 +62,7 @@ img{
 
 .dongtai{
     float: right;
-    width: 420px;
+    width: 400px;
     text-align: left;
 }
 .dongtai dl{
