@@ -13,6 +13,21 @@
     <link rel="stylesheet" href="css/index.css"/>
     <script src="js/jquery-1.7.2.min.js"></script>
     <script src="js/index.js"></script>
+    <style>
+        @media screen and (max-width: 768px) {
+            body{zoom: 0.75}
+            .home{height: 50%;}
+        }
+        @media screen and (max-width: 414px){
+            body{zoom: 0.4}
+            .home{height: 35%;}
+            .nav ul{width: 100%;}
+            .nav ul li{margin: 0 -2px;}
+            html {
+                -webkit-text-size-adjust: none;
+            }
+        }
+    </style>
 </head>
 <body>
 <!--top start-->
@@ -45,7 +60,7 @@
     <div class="y_50"></div>
     <div class="main">
         <div style="min-width: 800px;text-align: center;height: 28px;">
-            <a href="#" class="meiti_title"><img src="img/meiti_title.png" alt="媒体关注" style="width: 100%;margin: 0 auto;overflow: hidden;"/></a>
+            <a href="#"><img src="img/meiti_title.png" alt="媒体关注" style="width:100%;margin:auto;overflow:hidden;"/></a>
         </div>
         <div class="y_50"></div>
         <div class="meiti_main_up">
@@ -111,13 +126,13 @@
 <!--媒体关注结束-->
 <!--治水现场开始-->
 <div>
-    <div class="main" id="zhishui" style="margin: 0 auto;">
+    <div class="main" id="zhishui">
         <div class="y_50"></div>
         <div style="min-width: 800px;height: 28px;text-align: center;">
-            <a href="#"><img src="img/zhishui_title.png" alt="杭州记者走进治水现场" style="width: 100%;margin: 0 auto;overflow: hidden;"/></a>
+            <a href="#"><img src="img/zhishui_title.png" alt="杭州记者走进治水现场" style="width:100%;margin:auto;overflow:hidden;"/></a>
         </div>
         <div class="y_50"></div>
-        <div class="zhishui_cont">
+        <div class="zhishui_cont" style="text-align:center;">
             <ul>
                 <li class="font_color">
                     <div>
